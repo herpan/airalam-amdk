@@ -64,3 +64,14 @@ function onScroll(event){
       }
   });
 }
+
+$(window).on('load', function() {
+    handlePreloader(); 
+});
+
+//Hide Loading Box (Preloader)
+function handlePreloader() {
+    if($('.loader-wrap').length){
+        $('.loader-wrap').delay(1000).fadeOut(500);
+    }   
+}
