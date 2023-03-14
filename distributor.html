@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Air Alam</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor">
+                    <path stroke-linecap="box" stroke-linejoin="box" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <div id="menu-center" class="top-menu hide-menu">
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="#8C8C8C">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+                <ul>
+                    <li><a href="index.html">AirAlamAsli</a></li>
+                    <li><a href="index.html#Produk">Produk</a></li>
+                    <li><a href="index.html#Galeri">Galeri</a></li>
+                    <li><a href="index.html#Faq">FAQ</a></li>
+                    <li><a href="/"  class="active">Distributor Kami</a></li>
+                    <li><a href="#Faq" class="btn-rounded-full">Beli Sekarang</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="distributor" class="distributor container">
+
+        <div class="distributor-header">
+            <div class="distributor-header-left">
+                <h2 class="distributor-title">Daftar <span class="text-sky">Distributor</span> Kami</h2>
+            </div>        
+            <div class="distributor-header-right">
+                <span>
+                    <img src="assets/images/error.png" alt="" class="input-icon">
+                </span>
+                <p>
+                    Setiap 1 box Air Alam berisi 24 botol
+                </p>
+            </div>
+        </div>        
+        <div class="distributor-body">
+            <div class="form-card">
+                <form action="">
+                <div id="form-search-nav" class="form-card-title">
+                    <img src="assets/images/search.png" alt="">
+                    <span class="title">
+                        Cari Distributor
+                    </span>                    
+                    <span>
+                        <img id="arrow-form" src="assets/images/drop_down.png" alt="">
+                    </span>
+                </div>
+
+                <div id="form-search-body" class="form-card-body" style="display:none">
+                    <div class="form-left">
+                        <input type="text" name="depo" id="depo" placeholder="Depo">
+                        <input type="text" name="alamat" id="alamat" placeholder="Alamat">
+                        <input type="text" name="kelurahan" id="keluarahan" placeholder="Kelurahan">
+                    </div>
+
+                    <div class="form-right">
+                        <input type="text" name="kecamatan" id="kecamatan" placeholder="Kecamatan">
+                        <input type="text" name="kota" id="kota" placeholder="Kota">
+                        <input type="text" name="area" id="area" placeholder="Area">
+                        <button>Cari</button>
+                    </div>
+                </div>
+                </form>                
+            </div>
+            <table class="natureTable desktop">
+                <thead>
+                    <tr>
+                        <th class="natureTable-head-left">Depo</th>
+                        <th>Alamat Lengkap</th>
+                        <th>Kelurahan</th>
+                        <th>Kecamatan</th>
+                        <th>Kab/Kota</th>
+                        <th>Area</th>
+                        <th class="natureTable-head-right"></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">
+                            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a
+                                    href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#"> &raquo; </a></div>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>cell1_1</td>
+                        <td>cell2_1</td>
+                        <td>cell3_1</td>
+                        <td>cell4_1</td>
+                        <td>cell5_1</td>
+                        <td>cell6_1</td>
+                        <td><button>Hubungi</button></td>
+                    </tr>                   
+                </tbody>                
+            </table>
+
+            <table class="mnatureTable mobile">     
+                <tbody>
+                    <tr>
+                        <td class="td-label mnatureTable-head-left">Depo</td>
+                        <td>Depok</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Alamat Lengkap</td>
+                        <td>Gedung Bumi Mandiri Tower II Lt.9 No.907 Jl. Panglima Sudirman 66 - 68 Surabaya 60271 Indonesia</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kelurahan</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kecamatan</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kab/Kota</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr> 
+                    <tr>
+                        <td class="td-label">Area</td>
+                        <td>Jakarta Timur</td>                        
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="td-button">                                               
+                            <span>
+                                Hubungi
+                            </span>                            
+                        </td>                                         
+                    </tr>                  
+                </tbody> 
+            </table>
+
+            <table class="mnatureTable mobile">     
+                <tbody>
+                    <tr>
+                        <td class="td-label mnatureTable-head-left">Depo</td>
+                        <td>Depok</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Alamat Lengkap</td>
+                        <td>Gedung Bumi Mandiri Tower II Lt.9 No.907 Jl. Panglima Sudirman 66 - 68 Surabaya 60271 Indonesia</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kelurahan</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kecamatan</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr>
+                    <tr>
+                        <td class="td-label">Kab/Kota</td>
+                        <td>Lorem Ipsum</td>                        
+                    </tr> 
+                    <tr>
+                        <td class="td-label">Area</td>
+                        <td>Jakarta Timur</td>                        
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="td-button">                                               
+                            <span>
+                                Hubungi
+                            </span>                            
+                        </td>                                         
+                    </tr>                  
+                </tbody> 
+            </table>
+
+            
+
+            <table class="mnatureTable mobile">   
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a
+                                    href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#"> &raquo; </a></div>
+                        </td>
+                    </tr>
+                </tfoot>   
+            </table>
+
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-container container">
+            <div class="address">
+                <img src="assets/images/logo-white.svg" alt="">
+                <p>
+                    PT Wahana Pronatural Tbk.
+                    <br>
+                    <br>
+                    Gedung Bumi Mandiri Tower II Lt.9 No.907
+                    <br>
+                    Jl. Panglima Sudirman 66 - 68 Surabaya 60271 Indonesia
+                </p>
+                <small>
+                    Telepon: 031-5352705 | Fax: 031-5352704
+                </small>
+            </div>
+            <div class="directory desktop">
+                <h4>Directory</h4>
+                <ul>
+                    <li><a href="#AirAlamAsli">AirAlamAsli</a></li>
+                    <li><a href="#Produk">Produk</a></li>
+                    <li><a href="#Galeri">Galeri</a></li>
+                    <li><a href="#Faq">FAQ</a></li>
+                </ul>
+                <small class="desktop">
+                    Copyright © 2022. Air Alam
+                </small>
+            </div>
+            <div class="social-med">
+                <a href="">
+                    <img src="assets/images/icon-ig.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="assets/images/icon-fb.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="assets/images/icon-yt.svg" alt="">
+                </a>
+
+            </div>
+
+            <small class="mobile">
+                Copyright © 2022. Air Alam
+            </small>
+
+        </div>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        function resize(){
+            var windowWidth =$(window).width();
+
+            if(windowWidth>992){       
+                $('.mobile').hide();
+                $('.desktop').show(); 
+                $('top-menu').css('display','flex');
+            
+            }else{
+                $('.desktop').hide();
+                $('.mobile').show();   
+                $('.top-menu').css('display','none');  
+            }
+        }
+         $('#form-search-nav').click(function(){     
+            $('#form-search-body').slideToggle();
+            $("#arrow-form").toggleClass("active");                        
+        });
+    </script>
+
+</body>
+
+</html>
